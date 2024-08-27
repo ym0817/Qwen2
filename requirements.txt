@@ -1,0 +1,23 @@
+pip install torch==2.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install modelscope -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install transformers==4.38.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install transformers_stream_generator==0.0.4 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install gradio -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install accelerate -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tiktoken -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install einops -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install bitsandbytes -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+
+
+bitsandbytes
+transformers>=4.32.0,<4.38.0
+accelerate
+tiktoken
+einops
+transformers_stream_generator==0.0.4
+scipy
